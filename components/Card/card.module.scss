@@ -5,9 +5,10 @@
   justify-content: center;
   position: sticky;
   top: 0px;
+  padding: 2rem;
 
   @media (max-width: 680px) {
-    padding: 2rem;
+    padding: 0.5rem;
   }
   .card{
     display: flex;
@@ -20,11 +21,20 @@
     padding:50px;
     transform-origin: top;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    @media (max-width: 400px) {
+      padding: 16px;
+        height: 460px;
+        width: 100%;
+      }
+
     @media (max-width: 680px) {
       padding: 16px;
         height: 500px;
-        width: 80%;
+        width: 340px;
       }
+
+   
 
     h2{
       text-align: center;
