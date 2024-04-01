@@ -14,13 +14,13 @@
     padding: 0 1rem;
   }
 
-    &:last-of-type {
+  /*   &:last-of-type {
         margin-right: 0.5rem;
 
         @media screen and (min-width: 768px) {
             margin-right: 2rem;
           }
-    }
+    } */
 
     .nav_link {   
         position: relative;
@@ -28,12 +28,13 @@
         font-size: clamp(1.2rem, 2vw, 2rem);
         text-transform: uppercase;
         text-decoration: none;
-        color: rgba(13, 13, 13, 0.768);
+        color: rgba(234, 228, 228, 0.768);
 
         
   @media screen and (min-width: 768px) {
     padding: 0.5rem 1rem;
     font-size: 1rem;
+    color: rgba(38, 38, 38, 0.768);
   }        
 
   /* want a solid background, just uncomment background color,  testing different ways to do hover effects on nav  */
