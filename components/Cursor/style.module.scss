@@ -1,0 +1,117 @@
+/* .secondary-cursor {
+  z-index: 1000;
+
+  position: fixed;
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  background-color: #bdff00;
+  border-radius: 100%;
+} */
+
+.secondary-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+  
+    background: white;
+    mix-blend-mode: difference;
+    transition: width 0.25s ease-in-out, height 0.25s ease-in-out;
+
+    &.mask {
+        width: 220px;
+        height: 220px;
+            mask-image: url('../../assets/images/mask.svg');
+            mask-repeat: no-repeat;
+            mask-size: 220px;
+            background: #ec4e39;
+            position: absolute;
+            color: black;
+    }
+
+    &.mask2 {
+      width: 320px;
+      height: 320px;
+          mask-image: url('../../assets/images/mask.svg');
+          mask-repeat: no-repeat;
+          mask-size: 320px;
+          background: #ec4e39;
+          position: absolute;
+          color: black;
+          mix-blend-mode: color-burn;
+      }
+
+    &.mask3 {
+        width: 220px;
+        height: 220px;
+        -webkit-mask-image: url('../../assets/images//mask3.svg');
+        mask-image: url('../../assets/images//mask3.svg');
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        mask-size: 220px;
+        background: #000000;
+      }
+
+    &.mask4 {
+        width: 220px;
+        height: 220px;
+        -webkit-mask-image: url('../../assets/images//mask4.svg');
+        mask-image: url('../../assets/images//mask4.svg');
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        mask-size: 220px;
+        background: #000000;
+      }
+
+    &.xlarge {
+        width: 220px;
+        height: 220px;
+        border-radius: 15px;
+        border: 1px solid white;
+        background: transparent;
+      }
+  
+    &.square {
+      width: 120px;
+      height: 80px;
+      border-radius: 15px;
+        border: 1px solid white;
+        background: transparent;
+    }
+
+    &.squareX {
+      width: 220px;
+      height: 120px;
+      border-radius: 15px;
+        border: 1px solid white;
+        background: linear-gradient(to left, orange, red);
+    }
+
+    &.large {
+      width: 120px;
+      height: 120px;
+    }
+
+    &.regular {
+      width: 40px;
+      height: 40px;
+    }
+
+    &.menu_square {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 15px;
+      border: 2px dashed goldenrod;
+      background: transparent;
+      
+    }
+
+    &.small {
+      width: 20px;
+      height: 20px;
+    }
+  }
