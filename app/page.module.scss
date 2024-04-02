@@ -7,3 +7,23 @@
   max-width: 50%;
   margin: 0 auto;
 }
+
+.section {
+  position: relative;
+}
+
+.section-dots {
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+z-index: -1;
+
+}
+
+.section-slider,
+.section-about,
+.section-testimonials{
+  min-height: 100vh;
+  background: linear-gradient(120deg, blue, green);
+}

@@ -50,7 +50,7 @@ const Card = ({
         style={{
           background: bg,
           scale,
-          top: `calc(-5vh + ${i * 15}px)`,
+          top: `calc(-5vh + ${i * 5}px)`,
           rotate: randomAngle,
         }}
         className={styles.card}

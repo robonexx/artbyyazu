@@ -4,6 +4,8 @@ import styles from './page.module.scss';
 import StackedCards from '@/components/StackedCards';
 import { TextReveal } from '@/components/Animations/TextReveal';
 import Hero from '@/components/Hero';
+import Dots from '@/components/backgrounds/Dots';
+import ImageSlider from '@/components/ImageSlider';
 
 const text =
   'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero';
@@ -31,8 +33,17 @@ export default function Home() {
       <div className={styles.wrapper}>
         <TextReveal text='Hello you' el='h1' />
       </div> */}
-
-      <StackedCards />
+      <section className={styles.section}>
+        <div className={styles['section-dots']}>
+          <Dots />
+        </div>
+        <StackedCards />
+      </section>
+      <section className={styles['section-slider']}>
+        <ImageSlider />
+      </section>
+      <section className={styles['section-about']}></section>
+      <section className={styles['section-testimonials']}></section>
     </main>
   );
 }
