@@ -57,67 +57,16 @@
 .nav ul.open {
   -webkit-transform: translateX(0%);
       -ms-transform: translateX(0%);
-          transform: translateX(0%);
-  
-}
-/* 
-.nav > ul > li {
-  position: relative;
-  text-align: left;
-  width: 100px;
-  margin: 1rem 0;
-  padding: 1vmin 2vmin;
-  background: transparent;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
+          transform: translateX(0%);  
 }
 
-
-..nav_item::after {
-  content: '';
+.nav-logo {
+  display: block;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  width: 0%;
-  height: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
- 
+  left: 1rem;
+  top: 1rem;
+  color: rgba(228, 228, 228, 0.808);
 }
-
-.nav > ul > ..nav_item > ..nav_link {
-  font-family: 'Roboto', sans-serif;
-  position: relative;
- text-decoration: none;
- text-transform: capitalize;
- color: white;
- font-size: clamp(1rem, 1.25vw, 1.2rem);
-}
-
-.nav > ul > li:hover > a {
- color: #121212;
-}
-
-..nav_item:hover ..nav_link {
-  color: rgb(33, 33, 33);
-}
-
-..nav_item:hover::after,
-..nav_item:active::after {    
-  width: 100%;
-  background-color: #ededed;
-}
-
-..nav_item:hover ..nav_link,
-..nav_item:active ..nav_link {    
-  z-index: 10;
- color: #181818;
-} */
-
 
 @media (min-width: 768px) {
 
@@ -130,6 +79,10 @@
       height: 6vh;
       border-radius: 0%;
       z-index: 49;
+  }
+
+  .nav-logo {
+    display: none;
   }
 
   .nav > ul {
