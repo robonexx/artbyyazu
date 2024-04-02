@@ -88,43 +88,43 @@ export const previews = [
 
 export const projects = [
   {
-    title: 'Splash of happiness',
+    title: 'Life on earth?',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/art11.jpg',
-    link: '',
+    src: '/images/11.jpeg',
+    link: 'https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/',
     bg: 'linear-gradient(to right, #20002c, #cbb4d4)',
   },
   {
-    title: 'Circle of light',
+    title: 'Empty spaces',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/art16.jpg',
-    link: '',
+    src: '/images/12.jpeg',
+    link: 'https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/',
     bg: 'linear-gradient(to right, #159957, #155799)',
   },
   {
-    title: 'Yazuverse',
-    description:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/art12_2.jpg',
-    link: '',
-    bg: 'linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)',
-  },
-  {
-    title: 'Gathering',
+    title: 'Secret H on the move',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
     src: '/images/13.jpeg',
-    link: '',
+    link: 'https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/',
+    bg: 'linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)',
+  },
+  {
+    title: 'Space',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
+    src: '/images/14.jpeg',
+    link: 'https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/',
     bg: 'linear-gradient(to right, #2c3e50, #4ca1af)',
   },
   {
-    title: 'Erik',
+    title: 'Art by yazu',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/art13.jpg',
-    link: '',
+    src: '/images/15.jpeg',
+    link: 'https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/',
     bg: 'linear-gradient(to right, #e44d26, #f16529)',
   },
 ];

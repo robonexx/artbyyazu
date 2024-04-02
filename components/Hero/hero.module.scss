@@ -23,10 +23,6 @@
       width: clamp(340px, 50vw, 600px);
       overflow: hidden;
       border-radius: 8px;
-      @media (max-width: 400px) {
-        height: 440px;
-          width: 300px;
-        }
     }
     
     .item-header {
@@ -60,11 +56,6 @@
       object-position: center top;
       overflow: hidden;
       border-radius: 8px;
-
-      @media (max-width: 400px) {
-          height: 360px;
-          width: 300px;
-        }
     }
     
     .item-image:hover {
