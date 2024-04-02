@@ -37,7 +37,7 @@ export default function Home() {
       <div className={styles.wrapper}>
         <TextReveal text='Hello you' el='h1' />
       </div> */}
-      <section className={styles.section}>
+      <section>
         <div className={styles['section-dots']}>
           <Dots />
         </div>
