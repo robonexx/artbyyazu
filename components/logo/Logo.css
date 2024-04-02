@@ -1,10 +1,10 @@
 h2 {
-  max-width: 250px;
+  width: 100%;
   align-self: center;
   margin-left: 6vw;
   letter-spacing: 2px;
   font-family: 'headings';
   pointer-events: auto;
   cursor: pointer;
-  z-index: 1000;
+  z-index: 100;
 }

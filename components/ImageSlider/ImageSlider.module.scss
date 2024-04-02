@@ -20,8 +20,10 @@
     width: 100%;
     object-fit: cover;
     @media (max-width: 768px) {
+        padding-top: 20vh;
         max-width: 100svw;
         width: 100svw;
+        height: 60vh;
         left: 0;
         }
   }
@@ -44,8 +46,14 @@
   }
   .next {
     right: 2rem;
+    @media (max-width: 768px) {
+        right: 0.5rem;
+        }
   }
   .prev {
     left: 2rem;
     transform: scale(-1);
+    @media (max-width: 768px) {
+        left: 0.5rem;
+        }
   }

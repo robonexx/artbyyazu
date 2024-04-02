@@ -4,11 +4,13 @@
 }
 @font-face {
   font-family: 'body';
-  src: url('/fonts/Ailerdon-Regular.otf');
+  src: url('/fonts/Aileron-Regular.otf');
 }
 
+*,
 body {
   margin: 0px;
+  padding: 0;
   font-family: 'body';
 }
 

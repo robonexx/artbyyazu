@@ -1,0 +1,24 @@
+.svg-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.svg-1 {
+  position: absolute;
+  left: -30vw;
+  top: -20vh;
+
+  @media (min-width: 768px) {
+   transform: scale(2);
+  }
+}
+
+.svg-2 {
+  position: absolute;
+  right: -10vw;
+  bottom: -20vh;
+  @media (min-width: 768px) {
+    transform: scale(1.5);
+   }
+}

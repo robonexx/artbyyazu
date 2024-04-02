@@ -6,13 +6,17 @@ import { TextReveal } from '@/components/Animations/TextReveal';
 import Hero from '@/components/Hero';
 import Dots from '@/components/backgrounds/Dots';
 import ImageSlider from '@/components/ImageSlider';
+import { Background } from '@/components/backgrounds/Background';
+import BgEllipse from '@/components/backgrounds/BgEllipse';
+import Bg from '@/components/backgrounds/Bg';
 
 const text =
-  'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero';
+  'Yasmina Tanttu is an abstract painter who infuses her work with playful energy, love, and intention. Painting is her sanctuary, where she finds calm, relaxation, and creative expression. Each brushstroke is a deliberate offering of beauty and solace to the world, reflecting her belief in the power of art to uplift and inspire. In her studio, time seems to stand still as she creates, knowing she is exactly where she belongs—bringing dreams to life on canvas.';
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Background />
       <section>
         <Hero />
       </section>
@@ -42,7 +46,15 @@ export default function Home() {
       <section className={styles['section-slider']}>
         <ImageSlider />
       </section>
-      <section className={styles['section-about']}></section>
+      <section className={styles['section-about']} id='about'>
+        <div>
+          <BgEllipse />
+          <Bg />
+          <div className={styles.text}>
+            <SmoothTypewriter text={text} tag='p' />
+          </div>
+        </div>
+      </section>
       <section className={styles['section-testimonials']}></section>
     </main>
   );

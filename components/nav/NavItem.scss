@@ -1,13 +1,13 @@
 .nav_item {
-    height: 100%;
-    position: relative;
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize; 
-    pointer-events: auto;
-    
+  height: 46px;
+  position: relative;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  pointer-events: auto;
+
   @media screen and (min-width: 768px) {
     height: 100%;
     width: 8rem;
@@ -22,48 +22,45 @@
           }
     } */
 
-    .nav_link {   
-        position: relative;
-        font-weight: 400;
-        font-size: clamp(1.2rem, 2vw, 2rem);
-        text-transform: uppercase;
-        text-decoration: none;
-        color: rgba(234, 228, 228, 0.768);
-
-        
-  @media screen and (min-width: 768px) {
+  .nav_link {
     padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: rgba(38, 38, 38, 0.768);
-  }        
+    position: relative;
+    font-weight: 400;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(234, 228, 228, 0.768);
 
-  /* want a solid background, just uncomment background color,  testing different ways to do hover effects on nav  */
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;           
-    width: 0%;
-    height: 100%;
-    background-color: #de90ef;
-    z-index: -1;
-    border-radius: 8px;
-}
+    @media screen and (min-width: 768px) {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      color: rgba(38, 38, 38, 0.768);
+    }
 
-}
+    /* want a solid background, just uncomment background color,  testing different ways to do hover effects on nav  */
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: #de90ef;
+      z-index: -1;
+      border-radius: 8px;
+    }
+  }
 
-
-&:hover,
-&:active {
-.nav_link {
-    color: black;
-    z-index: 10;
-}
-.nav_link::after {
-    width: 100%;
-    cursor: pointer;
-    transition: width 0.4s ease-in-out;
-}
-
-}
+  &:hover,
+  &:active {
+    .nav_link {
+      color: black;
+      z-index: 10;
+    }
+    .nav_link::after {
+      width: 100%;
+      cursor: pointer;
+      transition: width 0.4s ease-in-out;
+    }
+  }
 }

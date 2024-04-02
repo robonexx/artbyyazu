@@ -1,4 +1,4 @@
-.main{
+.main {
   width: 100%;
   position: relative;
 }
@@ -13,17 +13,44 @@
 }
 
 .section-dots {
-width: 100%;
-position: absolute;
-left: 0;
-top: 0;
-z-index: -1;
-
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .section-slider,
 .section-about,
-.section-testimonials{
+.section-testimonials {
+  overflow: hidden;
+  position: relative;
   min-height: 100vh;
-  background: linear-gradient(120deg, blue, green);
+  background: #4b528c;
+  background: linear-gradient(135deg, #4b528c, #0c042e);
+  background: linear-gradient(120deg, #574650, #e6d5df, #cb7af3);
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  z-index: 10;
+  padding: 16px 32px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 16px;
+  }
+
+  p {
+    font-family: 'body';
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 1px 1px 5px rgba(18, 18, 18, 0.309), 5px 5px 20px rgba(0, 0, 0, 0.682);
+  }
 }

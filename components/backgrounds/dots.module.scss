@@ -1,9 +1,9 @@
 .dots {
     position: relative;
-    height: 400vh;
+    height: 530vh;
     background: #fff;
     filter: contrast(7);
-    --mask: linear-gradient(rgb(113, 213, 229), rgba(0, 0, 0, 0.45));
+    --mask: linear-gradient(rgb(35, 35, 35), rgba(234, 183, 245, 0.615));
 }
 
 .dots::before {
@@ -12,7 +12,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: radial-gradient(#167368, transparent) 0 0/1em 1em space;
+    background: radial-gradient(#b835ff, transparent) 0 0/1em 1em space;
     -webkit-mask: var(--mask);
     mask: var(--mask);
     content: "";
