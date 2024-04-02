@@ -88,43 +88,43 @@ export const previews = [
 
 export const projects = [
   {
-    title: 'Life on earth?',
+    title: 'Splash of happiness',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/11.jpeg',
-    link: 'https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/',
+    src: '/images/art11.jpg',
+    link: '',
     bg: 'linear-gradient(to right, #20002c, #cbb4d4)',
   },
   {
-    title: 'Empty spaces',
+    title: 'Circle of light',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/12.jpeg',
-    link: 'https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/',
+    src: '/images/art16.jpg',
+    link: '',
     bg: 'linear-gradient(to right, #159957, #155799)',
   },
   {
-    title: 'Secret H on the move',
+    title: 'Yazuverse',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/13.jpeg',
-    link: 'https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/',
+    src: '/images/art12_2.jpg',
+    link: '',
     bg: 'linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)',
   },
   {
-    title: 'Space',
+    title: 'Gathering',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/14.jpeg',
-    link: 'https://www.ignant.com/2019/03/13/a-photographic-series-depicting-the-uncertain-future-of-denmarks-treasured-coastlines/',
+    src: '/images/13.jpeg',
+    link: '',
     bg: 'linear-gradient(to right, #2c3e50, #4ca1af)',
   },
   {
-    title: 'Art by yazu',
+    title: 'Erik',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum dolorem et eveniet itaque est qui officia quasi cum soluta nostrum libero, quisquam, velit explicabo autem ab amet nesciunt quis. Sapiente obcaecati illum delectus consequuntur omnis nemo laborum modi id vero',
-    src: '/images/15.jpeg',
-    link: 'https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/',
+    src: '/images/art13.jpg',
+    link: '',
     bg: 'linear-gradient(to right, #e44d26, #f16529)',
   },
 ];
