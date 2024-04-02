@@ -23,7 +23,7 @@ const SmoothTypewriter = ({ text = 'Hello world', tag = 'p' }) => {
           <motion.span
             key={i}
             variants={TextVariants}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.3 }}
           >
             {char}
           </motion.span>
