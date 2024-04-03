@@ -13,8 +13,10 @@
     border-radius: 8px;
     width: 80svw;
     height: 70%;
-    background: #efedf4;
-    background: linear-gradient(120deg, #b375d0, #4f1074);
+    background: #EECDA3;  
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  
+    background: linear-gradient(to right, #EF629F, #EECDA3); 
+    
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.596));
     transform: rotate(2.5deg);
 
@@ -31,7 +33,7 @@
     
 
     p {
-      font-family: 'body';
+      font-family: 'headings';
       letter-spacing: 1px;
       font-size: clamp(1.25rem, 2vw, 2.5rem);
       color: rgb(255, 255, 255);

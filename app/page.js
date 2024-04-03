@@ -10,6 +10,7 @@ import ImageBackground from '@/components/backgrounds/ImageBackground';
 import About from '@/components/About';
 import SideScrollText from '@/components/SideScollText';
 import { useScroll, useTransform, motion } from 'framer-motion';
+import GradientBg from '@/components/backgrounds/GraidentBg';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -32,10 +33,9 @@ export default function Home() {
       </section>
 
       <section className={styles['section-slider']}>
-        {/* <div className={styles.wrapper}>
-          <TextReveal text='Selected drawings' el='h2' />
-        </div> */}
-        {/*  <ImageBackground /> */}
+        <div className={styles['section-gradient']}>
+          <GradientBg />
+        </div>
         <ImageSlider />
       </section>
       <section className={styles['section-about']} id='about'>
