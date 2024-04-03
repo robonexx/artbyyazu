@@ -21,7 +21,7 @@ export default function Home() {
       <section>
         <Hero />
       </section>
-      <motion.div style={{ x }}>
+      <motion.div style={{ x }} className={styles.scrolltext}>
         <SideScrollText />
       </motion.div>
       <div className={styles['section-dots']}>

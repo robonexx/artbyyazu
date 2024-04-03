@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.scrolltext{
+max-width: 100%;
+overflow: hidden;
+}
+
 .section-dots {
   width: 100%;
   height: 100vh;
@@ -15,22 +20,7 @@
   top: 90vh;
   z-index: -1;
 }
-.section-dots2 {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  top: 190vh;
-  z-index: -1;
-}
-.section-dots3 {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  top: 290vh;
-  z-index: -1;
-}
+
 
 
 
