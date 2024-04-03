@@ -24,11 +24,10 @@ export default function Home() {
       <motion.div style={{ x }}>
         <SideScrollText />
       </motion.div>
-
+      <div className={styles['section-dots']}>
+        <Dots />
+      </div>
       <section>
-        <div className={styles['section-dots']}>
-          <Dots />
-        </div>
         <StackedCards />
       </section>
 
