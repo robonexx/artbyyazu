@@ -7,9 +7,15 @@
   position: relative;
 }
 
-.scrolltext{
-max-width: 100%;
+
+.textWrapper {
+  max-width: 100%;
 overflow: hidden;
+display: inline-flex;
+}
+.scrolltext{
+width: 100%;
+
 }
 
 .section-dots {

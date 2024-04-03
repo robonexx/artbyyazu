@@ -14,16 +14,18 @@ import GradientBg from '@/components/backgrounds/GraidentBg';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
-  const x = useTransform(scrollYProgress, [0, 1], [50, -1000]);
+  const x = useTransform(scrollYProgress, [0, 1], [50, -1300]);
   return (
     <main className={styles.main}>
       <Background />
       <section>
         <Hero />
       </section>
+      <div className={styles.textWrapper}>
       <motion.div style={{ x }} className={styles.scrolltext}>
         <SideScrollText />
       </motion.div>
+      </div>
       <div className={styles['section-dots']}>
         <Dots />
       </div>
