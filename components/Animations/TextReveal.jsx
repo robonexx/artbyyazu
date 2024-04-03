@@ -54,7 +54,7 @@ export const TextReveal = ({
 
   return (
     <Wrapper
-      style={{ ...style, display: displayStyle }} // Apply dynamic display style and additional styles
+      style={{ ...style, display: displayStyle }} 
     >
       <span className={styles['sr-only']}>{textArray.join(' ')}</span>
       <motion.span
@@ -68,7 +68,7 @@ export const TextReveal = ({
         aria-hidden
       >
         {textArray.map((line, lineIndex) => (
-          <span style={{ display: 'block' }} key={`${line}-${lineIndex}`}>
+          <span style={{ display: 'block' }} key={`${line}-${lineIndex}`} className={styles.span}>
             {line.split(' ').map((word, wordIndex) => (
               <span
                 style={{ display: 'inline-block' }}

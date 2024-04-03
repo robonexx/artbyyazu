@@ -8,14 +8,21 @@ import ImageSlider from '@/components/ImageSlider';
 import { Background } from '@/components/backgrounds/Background';
 import ImageBackground from '@/components/backgrounds/ImageBackground';
 import About from '@/components/About';
+import SideScrollText from '@/components/SideScollText';
+import { useScroll, useTransform, motion } from 'framer-motion';
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
+  const x = useTransform(scrollYProgress, [0, 1], [50, -1000]);
   return (
     <main className={styles.main}>
       <Background />
       <section>
         <Hero />
       </section>
+      <motion.div style={{ x }}>
+        <SideScrollText />
+      </motion.div>
 
       <section>
         <div className={styles['section-dots']}>
@@ -23,11 +30,12 @@ export default function Home() {
         </div>
         <StackedCards />
       </section>
+
       <section className={styles['section-slider']}>
-        <div className={styles.wrapper}>
+        {/* <div className={styles.wrapper}>
           <TextReveal text='Selected drawings' el='h2' />
-        </div>
-       {/*  <ImageBackground /> */}
+        </div> */}
+        {/*  <ImageBackground /> */}
         <ImageSlider />
       </section>
       <section className={styles['section-about']} id='about'>
