@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { wrap } from 'popmotion';
 import styles from './ImageSlider.module.scss';
 
-const images = ['/images/art5.jpg', '/images/14.jpeg', '/images/art4.jpg', '/images/art13.jpg', '/images/art14.jpg'];
+const images = ['/images/draw1.jpg', '/images/draw2.jpg', '/images/draw3.jpg', '/images/draw4.jpg', '/images/draw5.jpg', '/images/draw6.jpg', '/images/draw7.jpg'];
 
 const ImageSlider = () => {
   const [[page, direction], setPage] = useState([0, 0]);

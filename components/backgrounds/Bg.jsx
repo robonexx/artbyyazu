@@ -25,7 +25,7 @@ const Bg = () => {
               y2='665'
               gradientUnits='userSpaceOnUse'
             >
-              <stop stop-color='#C3BBF7' />
+              <stop stopColor='#C3BBF7' />
               <stop offset='1' stop-color='#241E48' />
             </linearGradient>
           </defs>
@@ -53,9 +53,9 @@ const Bg = () => {
               y2='832.5'
               gradientUnits='userSpaceOnUse'
             >
-              <stop offset='0.0323464' stop-color='#FCE1E1' />
-              <stop offset='0.525' stop-color='#F3DFDF' />
-              <stop offset='1' stop-color='#64C3C9' />
+              <stop offset='0.0323464' stopColor='#FCE1E1' />
+              <stop offset='0.525' stopColor='#F3DFDF' />
+              <stop offset='1' stopColor='#64C3C9' />
             </linearGradient>
           </defs>
         </svg>
