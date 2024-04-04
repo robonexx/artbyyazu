@@ -3,12 +3,32 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { wrap } from 'popmotion';
 import styles from './ImageSlider.module.scss';
+import CardWithImage from '../CardWithImage';
 
-const images = ['/images/draw1.jpg', '/images/draw2.jpg', '/images/draw3.jpg', '/images/draw4.jpg', '/images/draw5.jpg', '/images/draw6.jpg', '/images/draw7.jpg'];
+export const backgroundsData = [
+  'linear-gradient(to right, #20002c, #cbb4d4)',
+  'linear-gradient(to right, #159957, #155799)',
+  'linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)',
+  'linear-gradient(to right, #2c3e50, #4ca1af)',
+  'linear-gradient(to right, #e44d26, #f16529)',
+  'linear-gradient(to right, #5614b0, #dbd65c)',
+  'linear-gradient(to right, #4da0b0, #d39d38)',
+];
+
+const images = [
+  '/images/draw1.jpg',
+  '/images/draw2.jpg',
+  '/images/draw3.jpg',
+  '/images/draw4.jpg',
+  '/images/draw5.jpg',
+  '/images/draw6.jpg',
+  '/images/draw7.jpg',
+];
 
 const ImageSlider = () => {
   const [[page, direction], setPage] = useState([0, 0]);
   const imageIndex = wrap(0, images.length, page);
+  const bgIndex = wrap(0, backgroundsData.length, page);
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
   };
@@ -17,7 +37,7 @@ const ImageSlider = () => {
   return (
     <div className={styles['image-slide-wrapper']}>
       <AnimatePresence initial={false} custom={direction}>
-        <motion.img
+        <motion.div
           className={styles.img}
           key={page}
           src={images[imageIndex]}
@@ -37,7 +57,14 @@ const ImageSlider = () => {
               paginate(-1);
             }
           }}
-        />
+        >
+          <CardWithImage
+            key={`p_${page}`}
+            i={page}
+            src={images[imageIndex]}
+            bg={backgroundsData[bgIndex]}
+          />
+        </motion.div>
       </AnimatePresence>
       <div className={styles.next} onClick={() => paginate(1)}>
         {'‣'}

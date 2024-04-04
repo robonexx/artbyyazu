@@ -3,14 +3,14 @@ import styles from './page.module.scss';
 import StackedCards from '@/components/StackedCards';
 import { TextReveal } from '@/components/Animations/TextReveal';
 import Hero from '@/components/Hero';
-import Dots from '@/components/backgrounds/Dots';
+import Dots from '@/components/About/backgrounds/Dots';
 import ImageSlider from '@/components/ImageSlider';
-import { Background } from '@/components/backgrounds/Background';
-import ImageBackground from '@/components/backgrounds/ImageBackground';
+import { Background } from '@/components/About/backgrounds/Background';
+import ImageBackground from '@/components/About/backgrounds/ImageBackground';
 import About from '@/components/About';
 import SideScrollText from '@/components/SideScollText';
 import { useScroll, useTransform, motion } from 'framer-motion';
-import GradientBg from '@/components/backgrounds/GraidentBg';
+import GradientBg from '@/components/About/backgrounds/GraidentBg';
 
 export default function Home() {
   const { scrollYProgress } = useScroll();

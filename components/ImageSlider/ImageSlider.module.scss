@@ -14,16 +14,15 @@
 
 .img {
     position: absolute;
-    width: 60svw;
+    width: 40svw;
     height: 80svh;
-    top: 10svh;
-    left: 20svw;
+    top: 20%;
+    left: 30svw;
     border-radius: 8px;
     object-fit: contain;
-    object-position: center top;
+    object-position: center;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.596));
     @media (max-width: 768px) {
-        padding-top: 10vh;
         width: 80svw;
         height: 80svh;
         top: 10svh;
