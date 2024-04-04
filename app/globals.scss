@@ -1,3 +1,5 @@
+@use '@/styles/base' as *;
+
 @font-face {
   font-family: 'headings';
   src: url('/fonts/BebasNeue-Regular.otf');
@@ -6,6 +8,7 @@
   font-family: 'body';
   src: url('/fonts/Aileron-Regular.otf');
 }
+
 
 *,
 body {
@@ -17,6 +20,8 @@ body {
 h2 {
   font-family: 'headings';
 }
+
+
 
 canvas {
   border-radius: 8px;

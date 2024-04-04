@@ -22,9 +22,9 @@ export default function Home() {
         <Hero />
       </section>
       <div className={styles.textWrapper}>
-      <motion.div style={{ x }} className={styles.scrolltext}>
-        <SideScrollText />
-      </motion.div>
+        <motion.div style={{ x }} className={styles.scrolltext}>
+          <SideScrollText />
+        </motion.div>
       </div>
       <div className={styles['section-dots']}>
         <Dots />
@@ -34,6 +34,12 @@ export default function Home() {
       </section>
 
       <section className={styles['section-slider']}>
+        <h4 className={styles.handwriting}>
+          <TextReveal
+            tag='h4'
+            text='Creativity is the bridge between imagination and reality, where dreams take shape and minds find solace'
+          />
+        </h4>
         <div className={styles['section-gradient']}>
           <GradientBg />
         </div>

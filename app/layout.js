@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { Inter } from 'next/font/google';
-import './globals.css';
+import './globals.scss';
 import Header from '@/components/header/Header';
 import Nav from '@/components/nav/Nav';
 import NavItem from '@/components/nav/NavItem';
